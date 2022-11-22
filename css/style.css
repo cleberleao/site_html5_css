@@ -16,7 +16,7 @@ body{
 	font-family: "Open Sans", Helvetica, sans-serif, arial; 
 	font-size: 18px; /* 18px a· 16px = 1.125em */
 	font-weight: 300;
-	line-height: 1.2222222222em; /* 22px a· 18px = 1.22222222222em*/
+	line-height: 1.222em; /* 22px a· 18px = 1.22222222222em*/
 	text-align: left; 
 	text-shadow:1px 1px 0px #fff; 
 }
@@ -44,20 +44,20 @@ img, picture, video, embed {
 }
 h1, h2{
 	color:#0ac3fe; 
-	font-size: 3.3333333333em; /* 60px a· 18px = 3.3333333333em */
+	font-size: 3.333em; /* 60px a· 18px = 3.3333333333em */
 	font-weight: 800;
 	letter-spacing: -0.05em; /* -3px a· 60px = -0.05em */
 	line-height: 1em; /* 60px a 60px = 1em */
 }
 h3{
-	font-size: 1.7777777778em; /* 32px a 18px = 1.7777777778em */
+	font-size: 1.78em; /* 32px a 18px = 1.7777777778em */
 	font-weight: 300;
 	letter-spacing: -0.0625em; /* -2px a 32px = -0.0625em */
-	line-height: 1.1875em; /* 38px a 32px = 1.1875em */
+	line-height: 1.187em; /* 38px a 32px = 1.1875em */
 }
 p{
 	font-weight: 300;
-	letter-spacing: -0.05555555556em; /* -1px a 18px = -0.05555555556em */
+	letter-spacing: -0.0556em; /* -1px a 18px = -0.05555555556em */
 }
 a, a:link, a:visited{
 	color:#1399da; 
@@ -88,7 +88,7 @@ logotipo
 		float:left; 
 		height:139px;
 		text-indent:-9999; 
-		width:38.333333333333%; /* 700px a 1200px = 0.58333333333333 x 100 = 58.333333333333%*/
+		width:38.333%; /* 700px a 1200px = 0.58333333333333 x 100 = 58.333333333333%*/
 	}
 /*
 =========================
@@ -99,7 +99,7 @@ nav{
 	float:right;
 	margin-top:78px; 
 	text-align:right; 
-	width:61.6666666666667%; /* 500px a 1200px = 0.416666666666667 x 100 = 41.6666666666667%*/
+	width:61.667%; /* 500px a 1200px = 0.416666666666667 x 100 = 41.6666666666667%*/
 }
 	nav ul{
 		list-style-type:none; 
@@ -112,10 +112,10 @@ nav{
 			}
 			nav a:link, nav a:visited{
 				color:#999;
-				font-size: 1.2222222222em; /* 22px a 18px = 1.2222222222em */
+				font-size: 1.222em; /* 22px a 18px = 1.2222222222em */
 				font-weight: 300;
-				letter-spacing: -0.0909090909em; /* -2px a 22px = -0.0909090909em */
-				line-height: 1.18181818182em; /* 26px a 22px = 1.18181818182em */
+				letter-spacing: -0.090em; /* -2px a 22px = -0.0909090909em */
+				line-height: 1.181em; /* 26px a 22px = 1.18181818182em */
 				display:inline-block;
 			}
 			nav a.ativo:link, nav a:hover{
@@ -132,7 +132,7 @@ nav{
 	h2 span{
 		font-size: 1em; /* 60px a 60px = 1em */
 		font-weight: 300;
-		letter-spacing: -0.0333333333em; /* -2px a 60px = 0.0333333333em */
+		letter-spacing: -0.033em; /* -2px a 60px = 0.0333333333em */
 		line-height: 1em; /* 60px a 60px = 1em */
 	}
 	.chamada h3 {
@@ -152,10 +152,10 @@ nav{
 	height: 350px;
 	position: relative;
 	text-align:center;
-	width: 31.57894736842105%;
+	width: 31.578%;
 }
 .desktop, .tablet{
-	margin-right: 2.631578947368421%;
+	margin-right: 2.631%;
 }
 .desktop{
 	background-color:#fe9481;
@@ -170,11 +170,11 @@ nav{
 }
 .meio .desktop figure, .meio .tablet figure, .meio .mobile figure{
 	margin: 15px auto 0px auto;
-	width: 69.44444444444444%;
+	width: 69.444%;
 }
 .meio h3{
 	color: #ffffff;
-	font-size: 1.77777777778em;
+	font-size: 1.778em;
 	font-weight: 300;
 	letter-spacing: -0.0625em;
 	margin-bottom: 30px;
@@ -184,7 +184,7 @@ nav{
 	background-color:#ffffff;
 	float:left;
 	height:200px;
-	padding: 1.9444444444444445%;
+	padding: 1.945%;
 	position: absolute;
 	max-width: 100%;
 	text-align:justify;
@@ -192,7 +192,7 @@ nav{
 }
 span.botao a{
 	color:#ffffff;
-	padding: 2px 3.333333333333333%;
+	padding: 2px 3.333%;
 }
 .desktop span.botao a{
 	background-color: #fe9481;
@@ -204,7 +204,7 @@ span.botao a{
 	background-color: #9c8cb9;
 }
 span.botao{
-	font-size: 1.11111111111em;
+	font-size: 1.111em;
 	font-weight: 400;
 	letter-spacing: -0.1em;
 	height: 27px;
@@ -212,7 +212,7 @@ span.botao{
 	position: absolute;
 	right: 1px;
 	text-align: center;
-	width: 33.333333333333333%;
+	width: 33.333%;
 	text-shadow: none;
 }
 footer{
@@ -261,16 +261,16 @@ footer{
 		height: 200px;
 	}
 	h2{
-		font-size: 2.222222222em;
+		font-size: 2.222em;
 	}
 	.chamada h3{
-		font-size: 1.111111111em;
+		font-size: 1.111em;
 	}
 	.meio{
 		background-color:#228b22;
 		height:400px;
-		padding: 3.90625%;
-		width: 92.1875%;
+		padding: 3.90%;
+		width: 92.18%;
 	}
 	.desktop, .tablet, .mobile{
 		width: 31.25%;
@@ -283,17 +283,17 @@ footer{
 		height:80px
 	}
 	.meio h3{
-		font-size: 1.6666666667em;
+		font-size: 1.667em;
 	}
 	.meio p{
-		font-size: 0.7777777778em;
+		font-size: 0.778em;
 		height: 160px;
-		line-height: 1.1428571428em;
-		padding: 2.91666666667%;
+		line-height: 1.142em;
+		padding: 2.916%;
 		top: 215px;
 	}
 	span.botao {
-		font-size: 1.11111111111em;
+		font-size: 1.111em;
 		letter-spacing: -0.1em;
 		height:22px;
 		margin-top: 25px;
@@ -301,6 +301,6 @@ footer{
 		width: 50%;
 	}
 	span.botao a{
-		padding: 2px 3.33333333333333%;
+		padding: 2px 3.333%;
 	}
 }
